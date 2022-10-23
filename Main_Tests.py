@@ -144,7 +144,7 @@ else:
 TxCnt = 16
 ChainLen = 10
 emptyCellLen = 28
-filename = "Block"
+filename = "Blocks/Block"
 ctr = 0
 
 PrevBlock = ""  # Previous block doesn't exist as this is the first link
