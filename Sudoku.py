@@ -133,7 +133,7 @@ def verifySudoku(sudokuBoard):
 
 if __name__ == "__main__":
 
-    TestSize = 100
+    TestSize = 10_000
     seeds = list(range(TestSize))
 
     sudoku, emptyCells = generateNewSudoku(
@@ -147,7 +147,7 @@ if __name__ == "__main__":
     solveTimes = []
     verifyTimes = []
 
-    for missingCell in [1, 10, 20, 30, 40, 50, 60, 70, 80]:
+    for missingCell in [1, 10, 20, 30, 40, 50, 60]:
         print("Level", missingCell)
 
         for s in seeds:
